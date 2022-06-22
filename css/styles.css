@@ -106,10 +106,10 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--button-color);
 }
-.footer-color .logo-footer:hover,
+/* .footer-color .logo-footer:hover,
 .footer-color .logo-footer:hover{
 color:var(--accent-color);
-}
+} */
 
 .logo-web{
   padding-top: 60px;
