@@ -87,6 +87,17 @@ text-decoration: none;
 color:var(--accent-color);
 }
 
+.footer-color .web-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color:var(--accent-color) ;
+text-decoration: none;
+}
+
 .footer-color .logo-footer{
 font-style: normal;
 font-weight: 700;
@@ -100,8 +111,26 @@ color: var(--button-color);
 color:var(--accent-color);
 }
 
+.logo-web{
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+/* conteiner-nav */
+.conteiner-nav{
+  display: flex;
+  align-items: center;
+}
+
 /* site-nav */
+.site-nav{
+display: flex;
+margin-left: 93px;
+}
 .site-nav .link{
+display: block;
+padding-top:32px;
+padding-bottom:32px;
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -114,8 +143,18 @@ text-decoration: none;
 .site-nav .link:focus{
 color: var(--accent-color);
 }
+
+.site-nav .item + .item{
+  margin-left: 50px;
+}
 /* list-contacts */
+.list-contacts{
+display: flex;
+margin-left: auto;
+}
+
 .list-contacts .contact{
+display: block;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -127,6 +166,10 @@ text-decoration: none;
 .list-contacts .contact:hover,
 .list-contacts .contact:focus{
 color: var(--accent-color);
+}
+
+.list-contacts .item + .item{
+  margin-left: 50px;
 }
 
 /* items-contacts */
@@ -153,6 +196,9 @@ letter-spacing: 0.03em;
 color: var(--button-color);
 }
 
+.items-contacts{
+  padding-bottom: 60px;
+}
 /* hero */
 .hero{
 width: 1600px;
