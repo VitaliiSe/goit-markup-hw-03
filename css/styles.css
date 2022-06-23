@@ -50,12 +50,12 @@ list-style: none;
 /* conteiner */
 
 .conteiner{
-width: 1200px;
+width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-/* outline: 1px solid black; */
+outline: 1px solid black;
 }
 
 /* page-header */
