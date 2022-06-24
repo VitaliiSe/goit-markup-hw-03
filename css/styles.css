@@ -55,7 +55,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-/* outline: 1px solid black; */
+outline: 1px solid black;
 }
 
 /* page-header */
@@ -87,6 +87,11 @@ text-decoration: none;
 .logo:focus{
 color:var(--accent-color);
 }
+/* footer */
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-color .web-footer{
 font-family: 'Raleway';
@@ -113,8 +118,7 @@ color:var(--accent-color);
 } */
 
 .logo-web{
-  padding-top: 60px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 /* conteiner-nav */
 .conteiner-nav{
@@ -197,12 +201,9 @@ letter-spacing: 0.03em;
 color: var(--button-color);
 }
 
-.items-contacts{
-  padding-bottom: 60px;
-}
+
 /* hero */
 .hero{
-width: 1600px;
 height: 600px;
 background:var(--background-color);
 text-align: center;
@@ -215,7 +216,8 @@ margin-bottom: 94px;
 
 .hero .hero-caption{
 width: 696px;
-margin-left: 452px;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 30px;
 
 
@@ -342,7 +344,8 @@ margin-bottom: 30px;
 margin-bottom: 94px;
 }
 .team .team-caption{
-
+padding-bottom: 50px;
+padding-top: 94px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -395,6 +398,7 @@ margin-bottom: 50px;
 }
 
 .examples .button-bar{
+padding: 6px 22px;
 min-width: 73px;
 
 font-family: 'Roboto';
