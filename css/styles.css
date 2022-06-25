@@ -95,7 +95,7 @@ color:var(--accent-color);
 }
 
 .footer{
-max-width: 1600px;
+width: 1600px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -216,7 +216,7 @@ color: var(--button-color);
 
 /* hero */
 .conteiner-fon{
-  max-width: 1600px;
+  width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
