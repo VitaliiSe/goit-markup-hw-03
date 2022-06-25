@@ -50,9 +50,9 @@ list-style: none;
 /* conteiner */
 
 .conteiner{
-width: 1230px;
-padding-left: 15px;
-padding-right: 15px;
+width: 1200px;
+/* padding-left: 15px;
+padding-right: 15px; */
 margin-left: auto;
 margin-right: auto;
 /* outline: 1px solid black; */
@@ -89,8 +89,7 @@ color:var(--accent-color);
 }
 /* footer */
 .footer{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 15px;
 }
 
 .footer-color .web-footer{
@@ -118,7 +117,7 @@ color:var(--accent-color);
 } */
 
 .logo-web{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 /* conteiner-nav */
 .conteiner-nav{
@@ -209,7 +208,6 @@ background:var(--background-color);
 text-align: center;
 padding-top: 200px;
 padding-bottom: 200px;
-margin-bottom: 94px;
 }
 
 
@@ -275,7 +273,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .post{
 text-align: center;
-margin-bottom: 94px;
+padding-bottom: 94px;
+padding-top: 94px;
+
 }
 
 .post .post-title{
@@ -304,17 +304,18 @@ display: flex;
 }
 .list-work{
  display: flex;
+
 }
 .work-conteiner .list-work+ .list-work{
   margin-left: 30px;
 }
 
 .work{
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 
 .work .work-title{
-padding-bottom: 50px;
+margin-bottom: 50px;
 
 font-style: normal;
 font-weight: 700;
@@ -341,10 +342,10 @@ margin-bottom: 30px;
 }
 
 .team{
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 .team .team-caption{
-padding-bottom: 50px;
+margin-bottom: 50px;
 padding-top: 94px;
 font-style: normal;
 font-weight: 700;
@@ -385,8 +386,8 @@ background-color: var(--background-color);
 
 /* bar */
 .examples{
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .button-conteiner{
 display: flex;
@@ -430,22 +431,24 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 .examples-border{
   width: 370px;
   border:1px solid var(--color-examples-border);
-  margin-bottom: 30px;
-  
+  margin-bottom: 30px;  
 
 }
+
+
+
 .examples-border:nth-child(n + 7){
   margin-bottom:0px;
   /* background-color: tomato; */
 }
 
+.examples-table{
+padding: 20px 24px;
+}
 
 .examples .examples-title{
-margin-top: 20px;
+text-align: auto;
 margin-bottom: 4px;
-margin-left: 24px;
-
-
 
 font-style: normal;
 font-weight: 700;
@@ -456,8 +459,6 @@ color: var(--primary-text-color);
 }
 
 .examples .examples-text{
-padding-left: 24px;
-padding-bottom: 20px;
 
 font-style: normal;
 font-weight: 400;
