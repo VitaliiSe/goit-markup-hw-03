@@ -88,17 +88,18 @@ text-decoration: none;
 color:var(--accent-color);
 }
 /* footer */
+.footer{
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 1px solid black; */
+  }
+
 .footer-cont{
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
-.footer{
-width: 1600px;
-margin-left: auto;
-margin-right: auto;
-}
 
 .footer .web-footer {
 font-family: 'Raleway';
@@ -216,25 +217,29 @@ color: var(--button-color);
 
 /* hero */
 .conteiner-fon{
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(rgba(47, 48, 58, 0.4));
-/*   
-  background-image:url(../img/Fon.jpg);
+  /* outline: 1px solid black; */
+
+background-image: linear-gradient(
+  to right,
+  rgba(255, 0, 0, 0.5),
+  rgba(0, 0, 255, 0.5),
+  rgba(0, 255, 0, 0.5)
+);
+  /* url(../img/Fon.jpg); */
+  background-position: center;
   background-size: cover;
-  background-position: center; */
+  background-repeat: no-repeat;
 }
 
 .hero{
-height: 600px;
-background:var(--background-color);
-text-align: center;
-padding-top: 200px;
-padding-bottom: 200px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px; 
 }
-
 .hero .hero-caption{
 width: 696px;
 margin-left: auto;
